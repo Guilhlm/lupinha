@@ -1,0 +1,49 @@
+
+.procurar-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 83, 94);
+    height: 200px;
+    padding: 10px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.procurar-texto {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: rgb(0, 255, 42);
+    font-size: 80px;
+    line-height: 200px;
+    width: 0;
+    transition: .7s;
+}
+
+.procurar-botao {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(0, 83, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* sinal de maior indico oq vai mudar dentro da primeira tag */
+.procurar-box:hover > .procurar-texto{
+    width: 1200px;
+    padding: 0 85px;
+    transition: .7s;
+
+}
+
+#lupa{
+    font-size: 100px;
+}
